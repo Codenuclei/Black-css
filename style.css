@@ -1,3 +1,38 @@
-body{
-  margin : 0px;
+body {
+  margin: 0px;
+}
+
+:root {
+  --height: 60vh;
+  --width: 80%;
+  --bradius: 12px;
+  --cardcolor: rgba(1, 23, 31, 1);
+}
+
+.card {
+  height: var(--height);
+  width: var(--width);
+  background-color: var(--cardcolor);
+  border-radius: var(--bradius);
+  padding: 4px;
+  margin: 20 3 20 30;
+  box-shadow: 0 0 3px 3px rgba(77, 204, 255, 1);
+}
+.cross {
+  height: 10px;
+  width: 10px;
+  background-image: url('./cross.svg');
+  background-size: 10px 10px;
+  margin-left: 90%;
+  margin-top:5%;
+  
+}
+.cardtext{
+  height: var(--height);
+  width: var(--width);
+  justify-content: center;
+  text-align: center;
+  margin-left:34px;
+ display : inline-block;
+ color:rgba(255, 255, 255, 1);
 }
